@@ -1,0 +1,34 @@
+<div ng-controller="dengl">
+	
+		<div class="content" >
+		<div class="wel">
+			<h1>Welcome!</h1>
+		</div>
+		<div class="mydl">
+			<div class="zhanghao">
+				<div>账号</div>
+				<input type="text" ng-model="updata.username">
+			</div>
+			<div class="zhanghao">
+				<div>密码</div>
+				<input type="password"  ng-model="updata.password">
+			</div>
+			<div class="user">
+				<span ui-sref="zc">注册新用户</span>
+				<label>
+					<input type="checkbox" ng-model="check">
+					<b>七天免登陆</b>
+				</label>
+				<span>忘记密码</span>
+			</div>
+			<button class="denglu" ng-click="fn()">登          录</button>
+		</div>
+		
+		<div class="tu">
+			<div><img src="images/qq.gif"></div>
+			<div><img src="images/weibo.gif"></div>
+			<div><img src="images/weixin.gif"></div>
+		</div>
+		<footer>Copyright © 2015 All Rights Reserved</footer>
+	</div> 
+	</div>

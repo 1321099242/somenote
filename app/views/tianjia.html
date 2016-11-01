@@ -1,0 +1,21 @@
+<div ng-controller="tianjia">
+	
+<nav class="navbar navbar-inverse" role="navigation">
+	<div class="container">
+		<button type="button" ng-click="back()" class="btn btn-link navbar-btn glyphicon glyphicon-chevron-left"></button> 
+		<button type="button" class="pull-right btn btn-link navbar-btn glyphicon glyphicon-ok" ng-click="savenews()"></button> 	</div><!-- /.container-fluid --> 
+</nav>
+
+<form role="form" class="ng-pristine ng-valid">
+	<div class="form-group">
+		<input ng-model="obj.title" type="text" class="form-control input-lg"  id="feedbackinput" placeholder="title"  
+		style=""color:#fff;" onfocus="this.style.color='#fff';this.style.border='dashed 1px #fff';" onblur="this.style.color='#fff'; this.style.border='none'""
+		>
+	</div>
+	<div class="form-group">
+		<textarea ng-model="obj.content" class="form-control input-lg" id="feedbackcontent" name="feedbackcontent" rows="5"  placeholder="Please enter the content..." style=""color:#fff;" onfocus="this.style.color='#fff';this.style.border='dashed 1px #fff';" onblur="this.style.color='#fff'; this.style.border='none'""></textarea>
+	</div>
+</form>
+
+</div>
+
